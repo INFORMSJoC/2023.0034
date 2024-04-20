@@ -1,0 +1,87 @@
+{
+  "MaxLayers": 50,
+  "timeLength": 168,
+  "predictLength": 24,
+  "IterationEachTime": 50,
+  "MonitorIterations": 50,
+  "NetPoolSize": 5,
+  "BATCH_SIZE": 256,
+  "MaxReplayEpisode": 500,
+  "EPISODE": 200,
+  "Pruning": true,
+  "PruningRatio": 0.1,
+  "GPU": true,
+  "OUT_DIR": "out_dir",
+  "RewardRegularisationLayers": 0.01,
+  "RewardRegularisationWidth": 0.001,
+  "LayerNumberStartRegularize": 10,
+  "LayerWidthStartRegularize": 80,
+  "RandomAddNumber": 0,
+  "KeepPrevNet": true,
+  "Modules": {
+    "dense": {
+      "out_range": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        80,
+        108,
+        144
+      ],
+      "editable": true
+    },
+    "rnn": {
+      "out_range": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        80,
+        108,
+        144
+      ],
+      "editable": true
+    },
+    "lstm": {
+      "out_range": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        80,
+        108,
+        144
+      ],
+      "editable": true
+    },
+    "conv": {
+      "out_range": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        80,
+        108,
+        144
+      ],
+      "editable": true
+    }
+  }
+}
